@@ -360,12 +360,54 @@ body {
 }
 
 .newsletter__map {
-    position: relative;
     background: url(../img/map.png);
-    width: 1102px;
-    height: 549px;
+    width: 100%;
+    min-height: 500px;
+    height: 500px;
+    background-size: cover;
 }
 
-.newsletter__maptext {
-    background: url(../img/circlelogo.png);
+.newsletter__maptextimg {
+    width: 100%;
+    height: auto;
+    text-align: center;
+    align-content: center;
+    background-color: rgba(255, 255, 255, 0);
+    background-image: url(../img/circle.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    /* padding: 50% 0px 50% 0px; */
+    /* transform:translateY(-50%); */
+    /* transform:translateX(-50%); */
+}
+
+.newsletter_maptext {
+    padding: 65px 0px 90px 0px;
+}
+
+.newsletter__maptitle {
+    color: #ffffff;
+    font-family: Lato;
+    font-size: 15px;
+    font-weight: 700;
+    text-transform: uppercase;
+    padding: 0px 0px 15px 0px;
+}
+.newsletter__maptextinfo {
+    color: #aeb7ba;
+    font-family: "Open Sans";
+    font-size: 13px;
+    font-weight: 400;
+    padding: 0px 0px 10px 0px;
+}
+.newsletter__email {
+    color: #ffbb42;
+    font-family: "Open Sans";
+    line-height: 24px;
+}
+
+
+.newsletter__logo img {
+    width: 50px;
+    height: auto;
 }
