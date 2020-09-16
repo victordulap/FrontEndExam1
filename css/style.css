@@ -364,7 +364,10 @@ body {
     width: 100%;
     min-height: 500px;
     height: 500px;
-    background-size: cover;
+    background-repeat: no-repeat;
+    background-size: auto 100%;
+    background-position: center;
+    margin: 0px 0px 50px 0px;
 }
 
 .newsletter__maptextimg {
@@ -376,12 +379,10 @@ body {
     background-image: url(../img/circle.png);
     background-repeat: no-repeat;
     background-position: center;
-    /* padding: 50% 0px 50% 0px; */
-    /* transform:translateY(-50%); */
-    /* transform:translateX(-50%); */
+    /* padding: 40px 0px 0px 0px; */
 }
 
-.newsletter_maptext {
+.newsletter__maptext {
     padding: 65px 0px 90px 0px;
 }
 
@@ -406,8 +407,69 @@ body {
     line-height: 24px;
 }
 
+.newsletter__logo {
+    /* padding: 0px 0px 160px 0px; */
+}
 
 .newsletter__logo img {
     width: 50px;
     height: auto;
+}
+
+.footer {
+    padding: 0px 0px 0px 0px;
+}
+
+.footer__cc {
+    background: #709dca;
+    color: white;
+    text-align: center;
+    font-family: "Open Sans";
+    font-size: 13px;
+    font-weight: 400;
+    padding: 18px 0px 18px 0px;
+}
+
+.footer__navbar {
+    text-align: center;
+}
+
+.footer .container {
+    border-top: 1px solid #e3e7ec;
+    padding: 65px 0px 0px 0px;
+}
+
+.footer__nav {
+    text-align: center;
+}
+
+.footer .nav-link {
+    color: #394b50;
+    font-family: Lato;
+    font-size: 13px;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+
+.footer__tel {
+    text-align: center;
+    color: #394b50;
+    font-family: Lato;
+    font-size: 23px;
+    font-weight: 400;
+    padding: 20px 0px 0px 0px;
+}
+
+.footer__icons {
+    text-align: center;
+    padding: 15px 0px 50px 0px;
+}
+.footer__ico {
+    padding: 0px 5px 0px 5px;
+    color: #709dca;
+}
+
+.footer a {
+    text-decoration: none;
+    color: inherit;
 }
